@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic Web Page Redesign</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f2f2f2;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        aside {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Semantic Website</h1>
+        <p>Redesigned using HTML5 & CSS Grid</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Blog Posts</h2>
+
+            <article>
+                <h3>Understanding HTML5</h3>
+                <p>HTML5 introduces semantic elements that describe the meaning of content clearly.</p>
+            </article>
+
+            <article>
+                <h3>Why Use CSS Grid?</h3>
+                <p>CSS Grid makes it easy to create flexible and responsive layouts.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">HTML Tutorial</a></li>
+                <li><a href="#">CSS Guide</a></li>
+                <li><a href="#">Web Design</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Semantic Website</p>
+    </footer>
+
+</body>
+</html>
